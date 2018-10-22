@@ -1,0 +1,36 @@
+p {
+	color : purple;
+	font-size: 200%;
+    	margin-top: 0;
+    	margin-bottom: 0;
+    	margin-left: 0;
+    	margin-right: 0;
+}
+table {
+   	border: 10px solid purple;
+}
+
+td {
+    	border: none;
+}
+
+body { margin: 0; }
+body>header { text-align: center; }
+body>header>nav>ul {
+    margin: 0;
+    padding: 0;
+    background-color: Black;
+    list-style-type: none;
+}
+body>header>nav>ul>li { display: inline-block; }
+body>header>nav>ul>li:hover { background-color: Purple; }
+body>header>nav>ul>li:active { background-color: Blue; }
+body>header>nav>ul>li>a {
+    display: block;
+    padding: 1em;
+    color: White;
+    text-decoration: none;
+}
+body>main { padding: 1em; }
+
+
